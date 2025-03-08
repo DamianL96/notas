@@ -1,0 +1,18 @@
+
+<ul>
+  @for (item of items$ | async; track item.id) {
+
+    <li>
+      <input 
+        type="text" 
+        [(ngModel)]="item.producto" 
+        (input)="editarNota(item.id!,{producto:item.producto})"
+      >
+
+      <button (click)="eliminarNota(item.id!)">Eliminar</button>
+    </li>
+    
+  }
+</ul>
+
+<button (click)="crearNota()">Nueva nota</button>

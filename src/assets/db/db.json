@@ -1,0 +1,33 @@
+[
+  {
+    "user":"damian",
+    "id_user":"#0001",
+    "sala":
+    [
+      {
+        "id_sala":"#a001",
+        "colegas":["#0002"],
+        "notas":[
+          {
+            "fecha":"",
+            "texto":""
+          }
+        ]
+      },
+      {
+        "id_sala":"#a002",
+        "colegas":[],
+        "notas":[]
+      }
+    ]
+  },
+
+  {
+    "user":"emmanuel",
+    "id_user":"#0002",
+    "sala":
+    [
+
+    ]
+  }
+]
