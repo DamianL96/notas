@@ -15,11 +15,11 @@ export interface Item {
   producto: string;
 }
 
-
 @Injectable({
   providedIn: 'root',
 })
 export class NotaService {
+
   private _firestore = inject(Firestore);
   private _collection = collection(this._firestore, 'ruta a notas');
 
