@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './nota.component.html',
-  styleUrl: './nota.component.css'
 })
 export class NotaComponent {
 
